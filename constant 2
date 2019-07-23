@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	const int LENGTH =20;
+	const int BREADTH= 20;
+	const char NEWLINE ='\n';
+	int area;
+	
+	area=LENGTH*BREADTH;
+	printf("the area=%d\n",area);
+	printf("%c",NEWLINE);
+	return 0;
+}
