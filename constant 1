@@ -1,0 +1,13 @@
+#include<stdio.h>
+#define LENGTH  20
+#define BREADTH  10
+#define NEWLINE '\n'
+int main()
+{
+float area;
+ area=LENGTH*BREADTH;
+ printf("the area=%f\n",area);
+ printf("%c",NEWLINE);
+ return 0;
+}
+ 
