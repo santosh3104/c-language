@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int a=100;
+	int b=200;
+	if (a==100)
+	{
+		if(b==200)
+		{
+		}
+		printf("a is less then 20\n",a);
+		}
+		else
+		{
+			printf("a is not less then 20\n",a);
+		}
+		printf("the vale of a=%d\n",a);
+		return 0;
+}
