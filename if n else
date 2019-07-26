@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int time;
+	if(time>=6 && time<12)
+	{
+		printf("good morning\n");
+	}
+	else if(time>=12 && time<18)
+	{
+		printf("good aftrnoon\n");
+	}
+	else if(time>=18 && time<20)
+	{
+		printf("good evening\n");
+	}
+	else
+	printf("good night\n");
+	return 0;
+}
